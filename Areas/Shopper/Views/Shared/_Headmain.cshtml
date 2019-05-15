@@ -1,0 +1,216 @@
+﻿
+
+<div id="top-header">
+    <div class="container">
+        <ul class="header-links pull-left">
+            <li><a href="#"><i class="fa fa-phone"></i> +84933-959-127</a></li>
+            <li><a href="#"><i class="fa fa-envelope-o"></i> hdgiahuy1@gmail.com</a></li>
+            <li><a href="/Shopper/Phanhoi/Index"><i class="fa fa-map-marker"></i> 175/3 Lái Thiêu-Thuận An-Bình Dương</a></li>
+        </ul>
+        <ul class="header-links pull-right">
+
+            @if (Session["accname"] == null)
+            {
+                <li><a href="/Shopper/UserReG/Login"><i class="fa fa-user"></i> Đăng Nhập</a></li>
+                <li><a href="/Shopper/UserReG/Index"><i class="fa fa-lemon-o"></i> Đăng Ký</a></li>
+            }
+            else
+            {
+                String accname = Session["accname"].ToString();
+
+
+                ShopProject.Repository.ShopDAO quyen = new ShopProject.Repository.ShopDAO();
+                int d = quyen.quyen(accname);
+                if (d == 1)
+                {
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Hi! @Session["accname"] <span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="margin-top:0px !important; color:black; ">
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/UserReG/Update"><i class="fa fa-user"></i>Thông tin người dùng</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/DonhangUser/Index"><i class="fa fa-shopping-cart"></i>Đơn hàng</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/UserReG/changepass"><i class="fa fa-refresh"></i>Đổi mật khẩu</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Administrator/Home/Index"><i class="fa fa-cog"></i>Quản Lý Chung</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/UserReG/Logout"><i class="fa fa-sign-out fa-fw"></i>Đăng xuất</a></li>
+                        </ul>
+                    </li>
+                }
+                else
+                {
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Hi! @Session["accname"] <span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="margin-top:0px !important; color:black; ">
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/UserReG/Update"><i class="fa fa-user"></i>Thông tin người dùng</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/DonhangUser/Index"><i class="fa fa-shopping-cart"></i>Đơn hàng</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/UserReG/changepass"><i class="fa fa-refresh"></i>Đổi mật khẩu</a></li>
+                            <li style="margin-right:0px;"><a style="color:black;" class="hehe" href="/Shopper/UserReG/Logout"><i class="fa fa-sign-out fa-fw"></i>Đăng xuất</a></li>
+                        </ul>
+                    </li>
+                }
+
+            }
+        </ul>
+    </div>
+</div>
+<div id="header">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- LOGO -->
+            <div class="col-md-3">
+                <div class="logo " style="margin-top:5px; margin-left:-40px; font-weight:bold;">
+
+                    <h1><a href="@Url.Action("Index", "Home")"><b>N<br>G<br>H</b><p style="padding-left:5px;font-weight:bold;" class="color">Đồ Câu GH</p><span>THE BEST FISHING</span></a></h1>
+                </div>
+            </div>
+            <!-- /LOGO -->
+            <!-- SEARCH BAR -->
+           
+            <div class="col-md-6">
+            <div class="header-search" >
+                @using (Ajax.BeginForm("SearchByName", "Products", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+                {
+
+                <form method="get">
+
+                    <input type="text" id="txtKeyword" class="input meo" name="keyword" placeholder="Tìm Kiếm Sản Phẩm..."  />
+
+                    <button type="submit" class="search-btn">Tìm Kiếm</button>
+                </form>
+
+                }
+            </div>
+        </div>
+            <!-- /SEARCH BAR -->
+            <!-- ACCOUNT -->
+            <div class="col-md-3 clearfix">
+                <div class="header-ctn">
+                    <!-- Wishlist -->
+                  
+                    <!-- /Wishlist -->
+                    <!-- Cart -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>Giỏ Hàng</span>
+                            @{
+                                List<ShopProject.Areas.Shopper.Models.CartItem> gio = Session["giohang"] as List<ShopProject.Areas.Shopper.Models.CartItem>;
+                                if (gio == null || gio.Count == 0)
+                                {
+                                    <div class="qty">0</div>
+                                }
+                                else
+                                {
+                                    <div class="qty">@gio.Count</div>
+                                }
+                            }
+
+                        </a>
+
+                        <div class="cart-dropdown">
+                            <div class="cart-list">
+
+                                @{ int i = 0;
+                                    int total = 0;
+                                    List<ShopProject.Areas.Shopper.Models.CartItem> hh = Session["giohang"] as List<ShopProject.Areas.Shopper.Models.CartItem>;
+
+                                    if (hh == null || hh.Count == 0)
+                                    {
+                                        <div class="product-body">
+                                            <h4 class="product-name"><a href="#">Giỏ hàng trống</a></h4>
+
+                                        </div>
+                                    }
+                                    else
+                                    {
+
+                                        foreach (var item in Session["giohang"] as List<ShopProject.Areas.Shopper.Models.CartItem>)
+                                        {
+                                            <div class="product-widget">
+
+                                                <div class="product-img">
+                                                    <img src="@item.Hinh" alt="" />
+                                                </div>
+                                                <div class="product-body">
+                                                    <h3 class="product-name"><a href="#">@item.TenSanPham</a></h3>
+                                                    <h4 class="product-price"><span class="qty">@item.SoLuong x</span>@item.ThanhTien.ToString("#,##0") VNĐ</h4>
+                                                </div>
+                                                @using (Ajax.BeginForm("Xoasp", "GioHang", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+                                                {
+                                                    <button type="submit" class="delete" name="SanPhamID" value="@item.SanPhamID"><i class="fa fa-close"></i></button>
+                                                }
+                                            </div>
+                                            i++;
+                                            total += @item.ThanhTien;
+                                        }
+
+                                    }
+
+                                }
+
+
+                            </div>
+                            <div class="cart-summary">
+                                <small>@i Sản phẩm trong giỏ</small>
+                                <h5>Tổng: @total.ToString("#,##0") VNĐ</h5>
+                            </div>
+                            <div class="cart-btns">
+                                <a href="@Url.Action("Index","GioHang")">Xem Giỏ Hàng</a>
+                                <a href="@Url.Action("Index", "ThanhToan")">Thanh Toán  <i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /Cart -->
+<script>
+    var common = {
+        init: function () {
+            common.registerEvent();
+        },
+        registerEvent: function () {
+            $("#txtKeyword").autocomplete({
+                minLength: 0,
+                source: function (request, response) {
+                    $.ajax({
+                        url: "/Products/ListName",
+                        dataType: "json",
+                        data: {
+                            keyword: request.term
+                        },
+                        success: function (res) {
+                            response(res.data);
+                        }
+                    });
+                },
+                focus: function (event, ui) {
+                    $("#txtKeyword").val(ui.item.label);
+                    return false;
+                },
+                select: function (event, ui) {
+                    $("#txtKeyword").val(ui.item.label);
+                    return false;
+                }
+            })
+                .autocomplete("instance")._renderItem = function (ul, item) {
+                    return $("<li>")
+                        .append("<a>" + item.label + "</a>")
+                        .appendTo(ul);
+                };
+        }
+    }
+    common.init();
+
+
+
+</script>
+@*Login*@
+<style>
+    .input{
+        color:black;
+    }
+</style>

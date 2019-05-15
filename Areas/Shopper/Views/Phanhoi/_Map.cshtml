@@ -1,0 +1,108 @@
+﻿<form>
+    <div id="maps_maparea">
+        <div id="maps_mapcanvas" style="margin-top:10px;" class="form-group"></div>
+    </div>
+</form>
+
+
+
+<script>
+    var map, ele, mapH, mapW, addEle, mapL, mapN, mapZ;
+
+    ele = 'maps_mapcanvas';
+    addEle = 'maps_address';
+    mapLat = 'maps_maplat';
+    mapLng = 'maps_maplng';
+    mapZ = 'maps_mapzoom';
+    mapArea = 'maps_maparea';
+    mapCenLat = 'maps_mapcenterlat';
+    mapCenLng = 'maps_mapcenterlng';
+
+    // Call Google MAP API
+    if (!document.getElementById('googleMapAPI')) {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.id = 'googleMapAPI';
+        s.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places&callback=controlMap';
+        document.body.appendChild(s);
+    } else {
+        controlMap();
+    }
+
+    // Creat map and map tools
+    function initializeMap() {
+        var zoom = parseInt($("#" + mapZ).val()), lat = parseFloat($("#" + mapLat).val()), lng = parseFloat($("#" + mapLng).val()), Clat = parseFloat($("#" + mapCenLat).val()), Clng = parseFloat($("#" + mapCenLng).val());
+        Clat || (Clat = 10.697456, $("#" + mapCenLat).val(Clat));
+        Clng || (Clng = 105.192913, $("#" + mapCenLng).val(Clng));
+        lat || (lat = Clat, $("#" + mapLat).val(lat));
+        lng || (lng = Clng, $("#" + mapLng).val(lng));
+        zoom || (zoom = 17, $("#" + mapZ).val(zoom));
+
+        mapW = $('#' + ele).innerWidth();
+        mapH = mapW * 3 / 4;
+
+        // Init MAP
+        $('#' + ele).width(mapW).height(mapH > 500 ? 500 : mapH);
+        map = new google.maps.Map(document.getElementById(ele), {
+            zoom: zoom,
+            center: {
+                lat: Clat,
+                lng: Clng
+            }
+        });
+
+
+
+        // Init default marker
+        var markers = [];
+        markers[0] = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(lat, lng),
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            title: 'Shop Lưỡi Câu LC'
+
+        });
+        markerdragEvent(markers);
+
+        // Event on zoom map
+        google.maps.event.addListener(map, 'zoom_changed', function () {
+            $("#" + mapZ).val(map.getZoom());
+        });
+
+        // Event on change center map
+        google.maps.event.addListener(map, 'center_changed', function () {
+            $("#" + mapCenLat).val(map.getCenter().lat());
+            $("#" + mapCenLng).val(map.getCenter().lng());
+            console.log(map.getCenter());
+        });
+
+
+
+
+    }
+
+    // Show, hide map on select change
+    function controlMap(manual) {
+        $('#' + mapArea).slideDown(100, function () {
+            initializeMap();
+        });
+
+        return !1;
+    }
+
+    // Map Marker drag event
+    function markerdragEvent(markers) {
+        for (var i = 0, marker; marker = markers[i]; i++) {
+            $("#" + mapLat).val(marker.position.lat());
+            $("#" + mapLng).val(marker.position.lng());
+
+            google.maps.event.addListener(marker, 'drag', function (e) {
+                $("#" + mapLat).val(e.latLng.lat());
+                $("#" + mapLng).val(e.latLng.lng());
+            });
+        }
+    }
+</script>
+
+

@@ -1,0 +1,63 @@
+﻿@model ShopProject.Areas.Administrator.Models.News
+
+@{
+    ViewBag.Title = "Cập nhật tin tức";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cập nhật tin tức</h2>
+<hr />
+@section jsFooter{
+
+    <script src="~/Scripts/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/ckfinder/ckfinder.js"></script>
+    <script>
+        var editor = CKEDITOR.replace('txtnoidung');
+        CKFinder.setupCKEditor(editor, { basePath: '/ckfinder/', rememberLastFolder: false });
+    </script>
+}
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "News")
+</div>
+@using (Html.BeginForm("Edit", "News", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.ID)
+        @Html.HiddenFor(model=>model.NgayDang)
+        <div class="text-success">
+            @ViewBag.EditProError
+        </div>
+        <div class="form-group col-lg-5">
+            <label>Chủ đề</label>
+            @Html.DropDownListFor(model => model.IDChuDe, ViewBag.pdcListEdit as SelectList, new { @class = "form-control" })
+
+
+
+            <label>Tiêu đề</label>
+            @Html.EditorFor(model => model.TieuDe, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập tên sản phẩm..." } })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.TieuDe)</div>
+
+            <label>Tóm tắt</label>
+            <div>
+                @Html.TextAreaFor(model => model.TomTat, new { htmlAttributes = new { @class = "form-control" },style= "width:389px;border-radius:4px;height:86px; "})
+
+            </div>
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.TomTat)</div>
+
+            <label>Nội dung</label>
+            @Html.TextAreaFor(model => model.NoiDung, new { htmlAttributes = new { @class = "form-control"},id="txtnoidung" })
+            <div class="text-danger">@Html.ValidationMessageFor(model => model.NoiDung)</div>
+
+           
+            <br />
+            <input type="submit" value="Cập nhật" class="btn btn-success" />
+        </div>
+    </div>
+}
+
+

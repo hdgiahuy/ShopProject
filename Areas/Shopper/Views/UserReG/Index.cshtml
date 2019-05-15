@@ -1,0 +1,184 @@
+﻿@model ShopProject.Areas.Administrator.Models.Administrator
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Shopper/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("Index", "UserReG", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.adQuyen)
+        @Html.HiddenFor(model => model.adStatus)
+        @Html.HiddenFor(model => model.adPass)
+        @Html.HiddenFor(model => model.adNgaytao)
+        @Html.HiddenFor(model => model.adQuyen)
+        @Html.HiddenFor(model => model.adSDT)
+        @Html.HiddenFor(model => model.adDiaChi)
+
+        <div class="container">
+            <div class="row main">
+                <div class="panel-heading">
+                    <div class="panel-title text-center">
+                        <h1 class="title">Đăng Ký Tài Khoản</h1>
+                       
+                    </div>
+                    <div style="text-align:center;">
+                        <div class="text-danger">
+                            @ViewBag.CreateUs
+                        </div>
+                        <div class="text-success">
+                            @ViewBag.Success
+                        </div>
+                        <div class="text-danger">
+                            @ViewBag.error
+                        </div>
+                        <div class="text-danger">
+                            @ViewBag.faild
+                        </div>
+                    </div>
+                </div>
+                <div class="main-login main-center " style=" margin-bottom: 20px; color:aliceblue;">
+                    <form class="form-horizontal" method="post" action="#">
+                       
+                        @*Tài khoản*@
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Tài Khoản</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                   <input class="form-control" name="accname" type="text" required requiredmsg="Mời nhập tài khoản...!!" placeholder="Mời nhập tài khoản..." />
+                                    @Html.ValidationMessageFor(model => model.adAcc, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+                        @*HỌ Tên Người dùng*@
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Họ và Tên</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                    <input class="form-control" name="hoten" type="text" required requiredmsg="Mời nhập họ tên...!!" placeholder="Mời nhập họ tên người dùng..." />
+                                    @Html.ValidationMessageFor(model => model.adHoten, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        @*Mật Khẩu*@
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Mật khẩu</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span  class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input required requiredmsg="Mời nhập mật khẩu..!!" type="password" class="form-control" name="mk" id="mk" placeholder="Nhập mật khẩu..." />
+                                </div>
+                            </div>
+                        </div>
+                        @*Mật Khẩu 1*@
+                        <div class="form-group">
+                            
+                            <label for="name" class="cols-sm-2 control-label">Xác nhận mật khẩu</label>
+                            <div class="cols-sm-10 date" >
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input type="password" required requiremsg="Mời nhập mật khẩu xác nhận..!!" class="form-control" name="mk1" id="mk1" placeholder="Nhập lại mật khẩu..." />
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="form-group ">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Đăng Ký</button>
+                    </div>
+                    <div class="login-register ">
+                        <a class="regtext" href="Login">Đăng Nhập</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+}
+
+<style>
+    .panel-heading {
+        height: 99px;
+    }
+
+    body, html {
+        height: 100%;
+        background-repeat: no-repeat;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .main {
+        margin-top: 0px;
+    }
+
+    h1.title {
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+    }
+
+    hr {
+        width: 10%;
+        color: #fff;
+    }
+
+    .form-group {
+        margin-bottom: 0px;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+        padding-top: 3px;
+    }
+
+    .main-login {
+        background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+        /* shadows and rounded borders */
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .main-center {
+        margin-top: 30px;
+        margin: 0 auto;
+        max-width: 330px;
+        padding: 40px 40px;
+    }
+
+    .login-button {
+        margin-top: 5px;
+    }
+
+    .login-register {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .regtext {
+        color: black;
+    }
+
+        .regtext:hover {
+            color: aliceblue;
+            text-decoration: none;
+        }
+</style>

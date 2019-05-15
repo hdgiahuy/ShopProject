@@ -1,0 +1,104 @@
+﻿@model PagedList.IPagedList<ShopProject.Areas.Administrator.Models.News>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Tin Tức";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Tin Tức</h2>
+<hr />
+@section jsFooter{
+    <script src="~/Areas/Administrator/Content/dist/js/sb-admin-2.js"></script>
+}
+@if (TempData["AlertMessage"] != null)
+{
+    <div id="AlertBox" class="alert @TempData["AlertType"] hide">
+        @TempData["AlertMessage"]
+    </div>
+}
+<div class="text-warning">
+    @ViewBag.ProError
+</div>
+
+<div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="btn btn-primary btn-default" href="@Url.Action("Create", "News")" role="button">Tạo sản phẩm mới</a>
+            <div class="form-group input-group navbar-right">
+                @using (Ajax.BeginForm("Index", "News", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+                {
+                    <input id="myInput" type="search" name="SearchString" class="form-control" style="width:300px" placeholder="Nhập tin tức cần tìm..." />
+                    <button class="btn btn-success" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                }
+            </div>
+        </div>
+        <div class="panel-body" style="width:100%;height:auto;overflow:auto;">
+            <div class="table-responsive table-bordered">
+                <table class="table" >
+                    <thead>
+                        <tr>
+
+
+
+                            <th>#</th>
+                            <th>Chủ đề</th>
+                            <th>Tiêu Đề</th>
+                            <th>Tóm tắt</th>
+                            <th>Ngày đăng</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        @{int i = 0;}
+                        @foreach (var item in Model)
+                        {
+
+                            i++;
+                            <tr>
+
+                                <td>@i</td>
+                                <td>@item.Theme.TenChuDe</td>
+                                <td>@item.TieuDe</td>
+                                <td>@item.TomTat</td>
+                                <td>@item.NgayDang</td>
+                                <td>
+                                    <a href="@Url.Action("Edit", "News", new { id = item.ID })"><i class="fa fa-pencil fa-fw"></i></a>|
+                                    <a href="@Url.Action("Details", "News", new { id = item.ID })"><i class="fa fa-list-alt fa-fw"></i></a>|
+                                    <a onclick="return confirm('Bạn có chắc chắn muốn xoá tin này?')" href="@Url.Action("Delete", "News", new { id = item.ID })"><i class="fa fa-times fa-fw"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="input">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @SearchString = @ViewBag.SearchString }))
+
+            </div>
+
+            <!-- /.table-responsive -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+<style>
+    .input{
+        text-align:center;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $("#myInput").on("keyup", function () {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>

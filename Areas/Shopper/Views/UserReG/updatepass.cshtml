@@ -1,0 +1,157 @@
+﻿@model ShopProject.Areas.Shopper.Models.Administrator
+@{
+    ViewBag.Title = "updatepass";
+    Layout = "~/Areas/Shopper/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("updatepass", "UserReG", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.adAcc)
+    @Html.HiddenFor(model => model.adStatus)
+    @Html.HiddenFor(model => model.adQuyen)
+    @Html.HiddenFor(model => model.adEmail)
+    @Html.HiddenFor(model => model.adDiaChi)
+    @Html.HiddenFor(model => model.adSDT)
+    @Html.HiddenFor(model => model.adHoten)
+    <div class="form-horizontal">
+        <div class="container">
+            <div class="row main">
+                <div class="panel-heading">
+                    <div class="panel-title text-center">
+                        <h1 class="title">Cập Nhật Mật Khẩu Mới</h1>
+                        <div class="text-danger">
+                            @ViewBag.error
+                        </div>
+                        <hr />
+
+                    </div>
+                </div>
+                <div class="main-login main-center " style=" margin-bottom: 20px; color:aliceblue;">
+                    <form class="form-horizontal" method="post" action="#">
+                        @*mật khẩu*@
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Mật khẩu:</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user fa-lg" aria-hidden="true"></i></span>
+                                    <input required requiredmsg="Mời nhập mật khẩu...!!" type="password"  class="form-control" name="mk" id="password" placeholder="Nhập mật khẩu..." />
+                                </div>
+                            </div>
+                        </div>
+                        @*Mật Khẩu 1*@
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Xác nhận mật khẩu:</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input required requiredmsg="Mời nhập mật khẩu xác nhận...!!" type="password"  class="form-control" name="mk1" id="password" placeholder="Nhập mật khẩu xác nhận..." />
+                                </div>
+                            </div>
+                        </div>
+                        @*code send mail*@
+                        <div class="form-group">
+                            <label for="name" class="cols-sm-2 control-label">Mã xác nhận:</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                    <input required requiredmsg="Mời nhập mã xác nhận...!!" type="password"  class="form-control" name="codemail" id="password" placeholder="Nhập mã xác nhận..." />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-group ">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Đăng Nhập</button>
+                    </div>
+                    <div class="login-register ">
+                        <a class="regtext" href="Index">Gửi lại mail xác nhận</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+}
+
+<style>
+    .panel-heading {
+        height: 99px;
+    }
+
+    body, html {
+        height: 100%;
+        background-repeat: no-repeat;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .main {
+        margin-top: 0px;
+    }
+
+    h1.title {
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+    }
+
+    hr {
+        width: 10%;
+        color: #fff;
+    }
+
+    .form-group {
+        margin-bottom: 0px;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+        padding-top: 3px;
+    }
+
+    .main-login {
+        background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+        /* shadows and rounded borders */
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .main-center {
+        margin-top: 30px;
+        margin: 0 auto;
+        max-width: 330px;
+        padding: 40px 40px;
+    }
+
+    .login-button {
+        margin-top: 5px;
+    }
+
+    .login-register {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .regtext {
+        color: black;
+    }
+
+        .regtext:hover {
+            color: aliceblue;
+            text-decoration: none;
+        }
+</style>
+
+
+

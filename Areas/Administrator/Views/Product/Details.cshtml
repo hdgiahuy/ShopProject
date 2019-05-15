@@ -1,0 +1,98 @@
+﻿@model ShopProject.Areas.Administrator.Models.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thông Tin Sản Phẩm</h2>
+<hr/>
+<div>
+   
+    <dl class="dl-horizontal">
+        <dt>
+           <label>Mã sản phẩm:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proID)
+        </dd>
+
+        <dt>
+            <label>Nhà sản xuất:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Producer.pdcName)
+        </dd>
+
+        <dt>
+            <label>Loại sản phẩm:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductType.typeName)
+        </dd>
+
+        <dt>
+            <label>Tên sản phẩm:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proName)
+        </dd>
+
+        <dt>
+            <label>Kích cỡ:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proSize)
+        </dd>
+
+        <dt>
+            <label>Giá tiền:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proPrice) VNĐ
+        </dd>
+
+        <dt>
+            <label>Chiết khấu:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proDiscount)%
+        </dd>
+
+        <dt>
+            <label>Thư mục lưu ảnh:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proPhoto)
+        </dd>
+
+        <dt>
+            <label>Thêm mới ngày:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proUpdateDate)
+        </dd>
+
+        <dt>
+            <label>Mô tả:</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proDescription)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.proID }) |
+    @Html.ActionLink("Quay về", "Index")
+</p>

@@ -1,0 +1,98 @@
+﻿
+@{
+    
+    ShopProject.Areas.Shopper.Models.UserContext db = new ShopProject.Areas.Shopper.Models.UserContext();
+}
+@using (Ajax.BeginForm("ProductsByProType", "Products", new AjaxOptions { InsertionMode = InsertionMode.Replace, HttpMethod = "Get" }))
+{
+    
+   
+        <div class="title" style="border-radius: 5px 5px 0px 0px; text-align:center;">
+            Lọc sản phẩm
+        </div>
+        <div class="searchbox" style="height: 226px;   border-radius: 0px 0px 5px 5px;">
+            <div class="box">
+                <div>
+                    <select class="tk " name="gia">
+                        <option value="null">--Chọn Giá--</option>
+                        <option value="1">Dưới 100.000 VNĐ</option>
+                        <option value="fr100to500">Từ 100.000 VNĐ đến 500.000 VNĐ</option>
+                        <option value="2">Trên 500.000 VNĐ</option>
+                    </select>
+                </div>
+              
+                <div>
+                    <select class="tk" name="size">
+                        <option value="null">--Chọn kích cỡ--</option>
+                        @for (var i = 0; i <= 10; i++)
+                        {
+                            <option value="@i">@i</option>
+                        }
+                    </select>
+                </div>
+                
+                <div>
+                    <select class="tk" name="hangsx">
+                        <option value="null">--Chọn xuất xứ--</option>
+                        @foreach (var item in db.Producers.SqlQuery("SELECT * FROM Producers"))
+
+                        {
+                            <option value="@item.pdcID">@item.pdcName</option>
+                        }
+
+                    </select>
+                </div>
+                <br/>
+                <div>
+                    <button type="submit" class="btn btn-success sebtn">Lọc</button>
+                </div>
+
+                
+            </div>
+          
+
+        </div>
+   
+
+}
+<style>
+    .title {
+        position: relative;
+        background: #0572d1;
+        padding: 15px 40px;
+        
+        font-size: 15px;
+        font-weight: bold;
+       
+        color: aliceblue;
+    }
+
+   
+   
+    .searchbox {
+        position: relative;
+        background-color: gray;
+        max-width: 100%;
+    }
+
+    .box {
+        padding: 0px 10px 0px 20px;
+    }
+
+    .tk {
+        width: 209px;
+        border-radius: 5px;
+        font-size: 15px;
+        height: 34px;
+        margin-top: 13px;
+    }
+
+    .sebtn {
+       
+        height: 34px;
+        width: 209px;
+      
+        font-size: 15px;
+    }
+  
+</style>

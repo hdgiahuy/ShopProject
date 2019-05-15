@@ -1,0 +1,62 @@
+﻿@model PagedList.IPagedList<ShopProject.Areas.Administrator.Models.News>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Shopper/Views/Shared/_Layout.cshtml";
+}
+<style>
+    a.list-group-item {
+        height: auto;
+        min-height: 110px;
+    }
+
+        a.list-group-item.active small {
+            color: #fff;
+        }
+        a.list-group-item.active:hover{
+            background-color:gray;
+        }
+        .stars {
+            margin: 20px auto 1px;
+        }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="well">
+            <h1 class="text-center">Tin Tức</h1>
+            <div class="list-group" style="margin-bottom:0px !important;">
+                @foreach (var item in Model)
+                {
+                    <a href="@Url.Action("View", "news", new { id = item.ID })" class="list-group-item">
+                        <div class="media col-md-3">
+                            <figure class="pull-left">
+                                <img class="media-object img-rounded img-responsive" src="~/Image/Danhmuchinh.jpg" alt="placehold.it/350x250">
+                            </figure>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="list-group-item-heading"> @item.TieuDe </h4>
+                            <p class="list-group-item-text">
+                                @item.TomTat
+                            </p>
+                        </div>
+                        <div class="right" style="font-size:10px;font-weight:bold; ">
+                            <span style="float:right;">@item.NgayDang</span>
+                        </div>
+                    </a>
+
+                }
+
+
+            </div>   
+            <div style="text-align:center;">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @SearchString = @ViewBag.SearchString }))
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+

@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
+
+
+
+    <!-- Bootstrap Core CSS -->
+    <!-- MetisMenu CSS -->
+    <link href="~/Areas/Shopper/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom Fonts -->
+    <link href="~/Areas/Shopper/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Areas/Shopper/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Areas/Shopper/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="application/x-javascript">
+         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //for-mobile-apps -->
+    <link href="~/Areas/Shopper/Content/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/Scripts/date/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <!-- Custom Theme files -->
+    <link href="~/Areas/Shopper/Content/css/style.css" rel='stylesheet' type='text/css' />
+    <link href="~/Areas/Shopper/Content/newtest/nouislider.min.css" rel="stylesheet" />
+    <link href="~/Areas/Shopper/Content/newtest/slick-theme.css" rel="stylesheet" />
+    <link href="~/Areas/Shopper/Content/newtest/slick.css" rel="stylesheet" />
+    <link href="~/Areas/Shopper/Content/newtest/style.css" rel="stylesheet" />
+    <link href="~/Areas/Administrator/Content/dist/css/dataTables.bootstrap.css" rel="stylesheet" />
+
+    <!-- js -->
+    <link href="~/Areas/Shopper/Content/css/jquery-ui.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="~/Areas/Shopper/Content/js/jquery-ui.js"></script>
+    <script src="~/Scripts/date/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/Areas/Administrator/Content/js/jquery.dataTables.min.js"></script>
+    <script src="~/Areas/Administrator/Content/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://ngoigo.com/uploads/2018/07/countdown.js"></script>
+
+    <!-- //js -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="~/Areas/Shopper/Content/js/move-top.js"></script>
+    <script type="text/javascript" src="~/Areas/Shopper/Content/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <link href="~/Areas/Shopper/Content/css/font-awesome.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--- start-rate---->
+    <script src="~/Areas/Shopper/Content/js/jstarbox.js"></script>
+    <link rel="stylesheet" href="~/Areas/Shopper/Content/css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+    <!---//End-rate---->
+    <style>
+        #style-6::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+
+        #style-6::-webkit-scrollbar {
+            width: 10px;
+            background-color: #F5F5F5;
+        }
+
+        #style-6::-webkit-scrollbar-thumb {
+            background-color: #F90;
+            background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+        }
+    </style>
+
+
+</head>
+<body id="style-6">
+    <div class="header">
+        @RenderPage("_Headmain.cshtml")
+        @RenderPage("_NavMenu.cshtml")
+
+        @RenderBody()
+        @*<iframe src="https://www.nhaccuatui.com/mh/auto/f32o3Q4f6Q" width="0" height="0" frameborder="0" allowfullscreen allow="autoplay"></iframe>*@        <!-- //footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="col-md-3 footer-grid">
+                    <h3>Giới thiệu</h3>
+                    <p>
+                        CSXS Đồ Câu GH.
+                    </p>
+                </div>
+                <div class="col-md-3 footer-grid ">
+
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                        @{
+                            ShopProject.Areas.Shopper.Models.UserContext db = new ShopProject.Areas.Shopper.Models.UserContext();
+
+                            foreach (var itemCate in db.Categories)
+                            {
+                                <li><a href="#">@itemCate.cateName</a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-grid">
+                    <h3>Tài khoản</h3>
+                    <ul>
+                        <li><a href="/Administrator/Account/Login">Đăng nhập</a></li>
+                        <li><a href="register.html">Đăng ký</a></li>
+                    </ul>
+                </div>
+              <!--  <div class="col-md-3 footer-grid">
+                    <audio controls autoplay loop preload="none"> <source src="~/mp3/ws1.MP3" type="audio/mpeg" /> </audio>
+
+                </div> -->
+                <div class="footer-bottom">
+                    <h2><a href="index.html"><b>N<br>G<br>H</b>ĐỒ Câu GH<span>The Best Fishing</span></a></h2>
+                    <ul class="social-fo">
+                        <li><a href="http://facebook.com" target="_blank" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <div class=" address">
+                        <div class="col-md-4 fo-grid1">
+                            <p><i class="fa fa-home" aria-hidden="true"></i>Thuận An - Bình Dương</p>
+                        </div>
+                        <div class="col-md-4 fo-grid1">
+                            <p><i class="fa fa-phone" aria-hidden="true"></i>0933.959.127</p>
+                        </div>
+                        <div class="col-md-4 fo-grid1">
+                            <p><a href="mailto:hdgiahuy1@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>hdgiahuy1@gmail.com</a></p>
+                        </div>
+                        <div class="clearfix"></div>
+
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <p> &copy; 2019 Shop Đồ Câu GH. All Rights Reserved | Design by  <a target="_blank" href="http://facebook.com">N.G.H</a></p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="cd-top"></a>
+        <!-- smooth scrolling -->
+        <!-- //smooth scrolling -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- for bootstrap working -->
+    </div>
+</body>
+
+</html>
+
+<style>
+    .offer-img {
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        left: 0px;
+    }
+    /* back to top */
+    a.cd-top {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        bottom: 80px;
+        right: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        /* image replacement properties */
+        overflow: hidden;
+        text-indent: 100%;
+        white-space: nowrap;
+        background: #3097D1 url("https://thinhweb.com/wp-content/themes/thinhweb/images/cd-top-arrow.svg") no-repeat center 50%;
+        border-radius: 10px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+        -moz-transition: opacity .3s 0s, visibility 0s .3s;
+        transition: opacity .3s 0s, visibility 0s .3s;
+    }
+
+
+        a.cd-top.cd-is-visible, a.cd-top.cd-fade-out, .no-touch a.cd-top:hover {
+            -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+            -moz-transition: opacity .3s 0s, visibility 0s 0s;
+            transition: opacity .3s 0s, visibility 0s 0s;
+        }
+
+        a.cd-top, a.cd-top:visited, a.cd-top:hover {
+            color: #CCCCCC;
+            text-decoration: none;
+        }
+
+            a.cd-top.cd-is-visible {
+                /* the button becomes visible */
+                visibility: visible;
+                opacity: 0.4;
+            }
+
+                a.cd-top.cd-is-visible:hover {
+                    opacity: 1;
+                }
+
+            a.cd-top.cd-fade-out {
+                /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+                opacity: 0.4;
+            }
+
+    .caret {
+        margin-left: 3px;
+    }
+</style>
+<script>
+
+    jQuery(document).ready(function ($) {
+        // browser window scroll (in pixels) after which the "back to top" link is shown
+        var offset = 300,
+            //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+            offset_opacity = 1200,
+            //duration of the top scrolling animation (in ms)
+            scroll_top_duration = 700,
+            //grab the "back to top" link
+            $back_to_top = $('.cd-top');
+
+        //hide or show the "back to top" link
+        $(window).scroll(function () {
+            ($(this).scrollTop() > offset) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+            if ($(this).scrollTop() > offset_opacity) {
+                $back_to_top.addClass('cd-fade-out');
+            }
+        });
+
+        //smooth scroll to top
+        $back_to_top.on('click', function (event) {
+            event.preventDefault();
+            $('body,html').animate({
+                scrollTop: 0,
+            }, scroll_top_duration
+            );
+        });
+
+    });
+
+
+    $(document).ready(function () {
+        var elements = $("input, select, textarea");
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].oninvalid = function (e) {
+                e.target.setCustomValidity("");
+                if (!e.target.validity.valid) {
+                    e.target.setCustomValidity(e.target.getAttribute("requiredmsg"));
+                }
+            };
+            elements[i].oninput = function (e) {
+                e.target.setCustomValidity("");
+            };
+        }
+    });
+
+
+
+    $(document).ready(function () {
+        $("#mytab").DataTable({
+            "language": {
+                "lengthMenu": "<b>Hiển thị</b>  _MENU_ Mục",
+                "zeroRecords": "<b>Không tìm thấy sản phẩm cần tìm</b>",
+                "info": "Hiển thị _PAGE_ trên _PAGES_",
+                "infoEmpty": "Không có sản phẩm",
+                "infoFiltered": "(Lọc từ _MAX_ sản phẩm)",
+                "search": " Tìm kiếm:",
+                "paginate": {
+
+                    "next": ">>",
+                    "previous": "<<"
+                }
+            },
+            "lengthMenu": [[5, 10, 20, -1], [5, 10, 20, "All"]],
+
+        });
+    });
+   // document.write('<style type="text/css">body{padding-bottom:50px}</style><img style="position:fixed;z-index:9999;top:0;left:0" src="https://lh6.googleusercontent.com/-c8CoUvCourw/UMcWWTeBE-I/AAAAAAAABcU/q-j9X7733zw/s150/top-left.png"/><div style="position:fixed;z-index:9999;bottom:0;left:0;width:100%;height:104px;background:url(https://lh6.googleusercontent.com/-kph53UsoxM4/UMczVhTsCVI/AAAAAAAABcs/DVTyvtz7blc/s1600/footer.png) repeat-x bottom left;"></div><img style="position:fixed;z-index:9999;bottom:30px;left:30px" src="https://lh4.googleusercontent.com/-mEgGUg-ou4k/UMcz0qy2NhI/AAAAAAAABc0/gF1uW4iE6y0/s180/bottom-left.png"/>'); var no = 100; var hidesnowtime = 0; var snowdistance = 'pageheight'; var ie4up = (document.all) ? 1 : 0; var ns6up = (document.getElementById && !document.all) ? 1 : 0; function iecompattest() { return (document.compatMode && document.compatMode != 'BackCompat') ? document.documentElement : document.body } var dx, xp, yp; var am, stx, sty; var i, doc_width = 800, doc_height = 600; if (ns6up) { doc_width = self.innerWidth; doc_height = self.innerHeight } else if (ie4up) { doc_width = iecompattest().clientWidth; doc_height = iecompattest().clientHeight } dx = new Array(); xp = new Array(); yp = new Array(); am = new Array(); stx = new Array(); sty = new Array(); for (i = 0; i < no; ++i) { dx[i] = 0; xp[i] = Math.random() * (doc_width - 50); yp[i] = Math.random() * doc_height; am[i] = Math.random() * 20; stx[i] = 0.02 + Math.random() / 10; sty[i] = 0.7 + Math.random(); if (ie4up || ns6up) { document.write('<div id="dot' + i + '" style="POSITION:absolute;Z-INDEX:' + i + ';VISIBILITY:visible;TOP:15px;LEFT:15px;"><span style="font-size:18px;color:#fff">*</span><\/div>') } } function snowIE_NS6() { doc_width = ns6up ? window.innerWidth - 10 : iecompattest().clientWidth - 10; doc_height = (window.innerHeight && snowdistance == 'windowheight') ? window.innerHeight : (ie4up && snowdistance == 'windowheight') ? iecompattest().clientHeight : (ie4up && !window.opera && snowdistance == 'pageheight') ? iecompattest().scrollHeight : iecompattest().offsetHeight; for (i = 0; i < no; ++i) { yp[i] += sty[i]; if (yp[i] > doc_height - 50) { xp[i] = Math.random() * (doc_width - am[i] - 30); yp[i] = 0; stx[i] = 0.02 + Math.random() / 10; sty[i] = 0.7 + Math.random() } dx[i] += stx[i]; document.getElementById('dot' + i).style.top = yp[i] + 'px'; document.getElementById('dot' + i).style.left = xp[i] + am[i] * Math.sin(dx[i]) + 'px' } snowtimer = setTimeout('snowIE_NS6()', 10) } function hidesnow() { if (window.snowtimer) { clearTimeout(snowtimer) } for (i = 0; i < no; i++)document.getElementById('dot' + i).style.visibility = 'hidden' } if (ie4up || ns6up) { snowIE_NS6(); if (hidesnowtime > 0) setTimeout('hidesnow()', hidesnowtime * 1000) }
+  
+</script>

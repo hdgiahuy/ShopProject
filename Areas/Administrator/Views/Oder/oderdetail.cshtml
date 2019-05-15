@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ShopProject.Areas.Administrator.Models.prandoeeder>
+@using PagedList;
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Thông tin khách hàng";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+
+}
+@section jsFooter{
+    <script src="~/Areas/Administrator/Content/dist/js/sb-admin-2.js"></script>
+}
+@{
+    ShopProject.Repository.ProductDAO proDAO = new ShopProject.Repository.ProductDAO();
+    ShopProject.Areas.Administrator.Models.AdminContext db = new ShopProject.Areas.Administrator.Models.AdminContext();
+    ShopProject.Areas.Administrator.Models.OrderDetail order = new ShopProject.Areas.Administrator.Models.OrderDetail();
+}
+<h2>Chi Tiết Hóa Đơn  </h2>
+<p>>> Mã Hóa Đơn: @Session["oderid"]<<</p>
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "Oder")
+</div>
+<hr />
+<div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="btn btn-primary  btn-default " href="@Url.Action("PrintViewToPdf", "Oder",new { @id = Session["oderid"] })" role="button"><i class="fa fa-print"></i> In hóa đơn</a>
+
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive table-bordered" style="position: inherit;">
+                <table class="table table-striped table-bordered table-hover" style="text-align:center; margin-bottom:0px !important;">
+                    <thead>
+                        <tr style="text-align:center;">
+                            <th style="text-align:center;">Hình ảnh</th>
+                            <th style="text-align:center;">Mã số sản phẩm</th>
+                            <th style="text-align:center;">Tên sản phẩm</th>
+                            <th style="text-align:center;">Giá</th>
+                            <th style="text-align:center;">Khuyến Mãi</th>
+                            <th style="text-align:center;">Số Lượng</th>
+                            <th style="text-align:center;">Thành Tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{int i = 0;
+                            int total = 0;}
+                        @foreach (var item in Model)
+                        {
+
+                            <tr>
+                                <td><img src="@item.proPhoto" style="width:40px; height:40px;" /></td>
+                                <td>@item.proID</td>
+                                <td style="max-width:200px; max-height:100px;">@item.proName</td>
+                                <td>@proDAO.formatNumber(item.proPrice) VNĐ</td>
+                                <td>@item.proDiscount %</td>
+                                <td>@item.pdcordtsQuantityID</td>
+                                <td> @Int32.Parse(@item.ordtsThanhTien).ToString("#,##0") VNĐ</td>
+
+
+                            </tr>
+                            total += Int32.Parse(@item.ordtsThanhTien);
+                        }
+
+                    </tbody>
+                    <tr>
+                        <td colspan="6" style="font-weight:bold; color:red;">Tổng tiền</td>
+
+                        <td style="font-weight:bold; color:red;">@total.ToString("#,##0") VNĐ</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- /.table-responsive -->
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+
+
+
+

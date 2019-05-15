@@ -1,0 +1,71 @@
+﻿@model ShopProject.Areas.Administrator.Models.Administrator
+
+@{
+    ViewBag.Title = "Changepass";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cập Nhật Thông Tin Người Dùng</h2>
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "Home")
+</div>
+
+@using (Html.BeginForm("Changepass", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="text-danger">
+        @ViewBag.EditProError
+    </div>
+    @Html.HiddenFor(model => model.adAcc)
+    @Html.HiddenFor(model => model.adStatus)
+    @Html.HiddenFor(model => model.adQuyen)
+    @Html.HiddenFor(model => model.adEmail)
+    @Html.HiddenFor(model => model.adDiaChi)
+    @Html.HiddenFor(model => model.adSDT)
+    @Html.HiddenFor(model => model.adHoten)
+
+
+
+
+    <div class="form-group col-lg-5">
+
+
+
+        <div class="form-group">
+            <label>mật khẩu</label>
+
+            <input class="form-control" name="mk" type="password" />
+
+        </div>
+        <div class="form-group">
+            <label>mật khẩu mới</label>
+
+            <input class="form-control" name="mknews" type="password" />
+
+        </div>
+        <div class="form-group">
+            <label>nhập lại mật khẩu</label>
+
+            <input class="form-control" name="mkcomplie" type="password" />
+
+        </div>
+
+
+        <input type="submit" value="Save" class="btn btn-success" />
+
+    </div>
+
+
+</div>
+}
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

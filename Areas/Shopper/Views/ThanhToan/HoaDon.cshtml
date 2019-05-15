@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Hoá đơn";
+    Layout = "~/Areas/Shopper/Views/Shared/_Layout.cshtml";
+}
+@{
+    ShopProject.Areas.Shopper.Models.UserContext db = new ShopProject.Areas.Shopper.Models.UserContext();
+    var cus = db.Customers.Find(Session["Phone"]);
+}
+<div class="container">
+    <div class="spec " >
+        <h3><a href="#" style="text-decoration:none; ">Hoá đơn @Session["MHD"]</a></h3>
+        <div class="ser-t">
+            <b></b>
+            <span><i></i></span>
+            <b class="line"></b>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="alert alert-danger" >
+       <p>
+           <br />
+           <h5>Hình thức thanh toán: Khách Hàng chỉ thanh toán khi đã nhận hàng.</h5><br />
+           <h5>Đơn hàng sẽ được chuyển đến địa chỉ của quý khách trong thời gian từ 3 đến 5 ngày.</h5><br />
+           <h5>Cửa hàng sẽ liên hệ với khách hàng trong vòng 24h để xác nhận đơn hàng.</h5>
+       </p> 
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Họ và tên khách: @Session["fullname"]
+                </div>
+                <div class="panel-body">
+                    <p>
+                        <br />
+                        Số điện thoại: @Session["Phone"]<br />
+                        Email: @Session["Email"]<br />
+                        Địa chỉ: @Session["Diachi"]<br />
+                        Ghi chú: @db.Orders.Find(Session["MHD"]).orderMessage
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    Shop Đồ Câu GH
+                </div>
+                <div class="panel-body">
+                    <p>
+                        <br />
+                        Số điện thoại: 0933.959.127<br />
+                        Email: hdgiahuy1@gmail.com<br />
+                        Địa chỉ: 175/3 - Lái Thiêu - Thuận An - Bình Dương
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Sản phẩm
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Hình ảnh</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int i = 0;
+                            int tong = 0;
+                        }
+                        @foreach (var item in db.OrderDetails.SqlQuery("Select * from OrderDetails Where orderID='" + Session["MHD"] + "'"))
+                        {
+                            i++;
+                            <tr>
+                                <td>@i</td>
+                                <td><img src="@item.Product.proPhoto" width="50" height="50"></td>
+                                <td>@item.Product.proName</td>
+                                <td>@item.ordtsQuantity</td>
+                                <td>@Int32.Parse(item.ordtsThanhTien).ToString("#,##0") VNĐ</td>
+                            </tr>
+                            tong += Int32.Parse(item.ordtsThanhTien);
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="font-weight:bold;">Tổng tiền:</td>
+                            <td style="font-weight:bold;">@tong.ToString("#,##0") VNĐ</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

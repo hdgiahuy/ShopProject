@@ -1,0 +1,52 @@
+﻿@model ShopProject.Areas.Administrator.Models.Administrator
+
+@{
+    ViewBag.Title = "Tạo hãng mới";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tạo tài khoản mới</h2>
+
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "Account")
+</div>
+@using (Html.BeginForm("Create", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="text-danger">
+            @ViewBag.CreatePdcError
+        </div>
+        <div class="form-group col-lg-5">
+            <label>Tên Tài Khoản</label>
+            <input type="text" required requiredmsg="Mời nhập tên tài khoản..!!" name="name" class="form-control" placeholder="Mời nhập tài khoản.." />
+
+            <label>Mật khẩu</label>
+            <input type="password" required requiredmsg="Mời nhập mật khẩu..!!" name="mk" class="form-control" placeholder="Mời nhập mật khẩu.." autocomplete="off" />
+            <label>Quyền</label>
+            @Html.DropDownListFor(model => model.adQuyen, ViewBag.pdcListEdit as SelectList, new { htmlAttributes = new { @class = "form-control" }, style = "width:390px;border-radius:4px;height:34px; " })
+
+            <label>Họ tên</label>
+            <input type="text" required requiredmsg="Mời nhập họ tên..!!" name="hoten" class="form-control" placeholder="Mời nhập họ tên.." />
+
+            <label>Email</label>
+            <input required requiredmsg="Mời nhập Email hợp lệ" type="email" class="form-control" name="email" autocomplete="off" value="" placeholder="E-mail">
+
+            <label>Địa chỉ</label>
+            @Html.TextAreaFor(model => model.adDiaChi, new { @class = "form-control", @placeholder = "Nhập địa chỉ..", @required = "required", @requiredmsg = "Mời nhập địa chỉ..!!" })
+
+            <label>Số điện thoại</label>
+            <input type="number" required requiredmsg="Mời nhập số điện thoại..!!" name="sdt" class="form-control" placeholder="Mời nhập số  điện thoại.." />
+            <br />
+            <input type="submit" value="Tạo mới" class="btn btn-success" />
+        </div>
+    </div>
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

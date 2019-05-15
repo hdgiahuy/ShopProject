@@ -1,0 +1,83 @@
+﻿@model ShopProject.Areas.Administrator.Models.News
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+
+    <script src="~/Scripts/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/ckfinder/ckfinder.js"></script>
+    <script>
+        var editor = CKEDITOR.replace('txtnoidung');
+        CKFinder.setupCKEditor(editor, { basePath: '/ckfinder/', rememberLastFolder: false });
+    </script>
+}
+<h2>Cập Nhật Tin tức</h2>
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "News")
+</div>
+<hr />
+<div class="row">
+    <div class="col-lg-12">
+        
+                @using (Html.BeginForm("Create", "News", FormMethod.Post, new { enctype = "multipart/form-data" }))
+
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+
+                        @Html.ValidationSummary(true)
+
+                        <div class="text-danger" >
+                            @ViewBag.CreateProError
+                        </div>
+                        @*Chủ đề*@
+                        <div class="form-group col-lg-11">
+
+                            <label>Chủ đề</label>
+                            @Html.DropDownListFor(model => model.IDChuDe, ViewBag.pdcListCreate as SelectList, new { @class = "form-control" })
+
+                            @*Tiêu đề*@
+                            <p></p>
+                            <label>Tiêu đề</label>
+                            @Html.EditorFor(model => model.TieuDe, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập tiêu đề...", @required = "required", @requiredmsg = "Mời nhập tên tiêu đề..!!" } })
+                            <div class="text-danger">@Html.ValidationMessageFor(model => model.TieuDe)</div>
+
+
+
+                            @*tóm tắt*@
+                            <p></p>
+                            <label>Tóm tắt</label>
+                            @Html.EditorFor(model => model.TomTat, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập tiêu đề...", @required = "required", @requiredmsg = "Mời nhập tóm tắt..!!" } })
+                            <div class="text-danger">@Html.ValidationMessageFor(model => model.TomTat)</div>
+
+
+
+                            @*Tiêu đề*@
+                            <p></p>
+                            <label>Nội dung</label>
+                            @Html.TextAreaFor(model => model.NoiDung, new { htmlAttributes = new { @class = "form-control", @required = "required", @requiredmsg = "Mời nhập nội dung..!!" }, id = "txtnoidung" })
+                            <div class="text-danger">@Html.ValidationMessageFor(model => model.NoiDung)</div>
+
+
+
+
+                        </div>
+
+                        <div class="form-group">
+                            <div class=" col-lg-11" >
+                                <button type="submit" class="btn btn-success" style="width:894px;">Thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+        
+    </div>
+</div>
+
+
+
+

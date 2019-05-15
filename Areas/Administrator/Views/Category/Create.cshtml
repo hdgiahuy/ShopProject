@@ -1,0 +1,39 @@
+﻿@model ShopProject.Areas.Administrator.Models.Category
+@{
+    ViewBag.Title = "Tạo danh mục mới";
+    Layout = "~/Areas/Administrator/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tạo danh mục mới</h2>
+
+
+<div>
+    <i class="fa fa-undo fa-fw"></i>@Html.ActionLink("Quay lại", "Index", "Category")
+</div>
+@using (Html.BeginForm("Create", "Category", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true)
+    <div class="text-danger">
+        @ViewBag.CreateCategory
+    </div>
+    
+    <div class="form-group col-lg-5">
+        <label>Tên danh mục</label>
+        <input type="text" required requiredmsg="Mời nhập tên danh mục sản phẩm..!!" name="name" class="form-control" placeholder="Mời nhập tên danh mục sản phẩm.."/>
+        <div class="text-danger">@Html.ValidationMessageFor(model => model.cateName)</div>
+        <label>Hình ảnh</label>
+        <input type="file" id="file" name="file" />
+        <div class="text-danger">@ViewBag.HinhAnh</div>
+        <br />
+        <input type="submit" value="Tạo mới" class="btn btn-success" />
+    </div>
+</div>
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

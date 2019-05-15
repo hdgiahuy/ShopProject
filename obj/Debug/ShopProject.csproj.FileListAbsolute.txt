@@ -1,0 +1,915 @@
+D:\Project\Web\ShopProject\ShopProject\bin\ShopProject.dll.config
+D:\Project\Web\ShopProject\ShopProject\bin\ShopProject.dll
+D:\Project\Web\ShopProject\ShopProject\bin\ShopProject.pdb
+D:\Project\Web\ShopProject\ShopProject\bin\EntityFramework.dll
+D:\Project\Web\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+D:\Project\Web\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\Web\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+D:\Project\Web\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Http.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Razor.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+D:\Project\Web\ShopProject\ShopProject\bin\X.PagedList.Mvc.PagedListExt.dll
+D:\Project\Web\ShopProject\ShopProject\bin\EntityFramework.xml
+D:\Project\Web\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+D:\Project\Web\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+D:\Project\Web\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Http.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.Razor.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+D:\Project\Web\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+D:\Project\Web\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+D:\Project\Web\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+D:\Project\Web\ShopProject\ShopProject\obj\Debug\ShopProject.csprojResolveAssemblyReference.cache
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\ShopProject.dll.config
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\ShopProject.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\ShopProject.pdb
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\EntityFramework.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\PagedList.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Http.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Razor.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\EntityFramework.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\PagedList.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Http.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.Razor.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+D:\Project\Web\Shopper\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+D:\Project\Web\Shopper\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\ShopProject\ShopProject\bin\ShopProject.dll
+F:\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\ShopProject\ShopProject\bin\PagedList.dll
+F:\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\ShopProject\ShopProject\bin\PagedList.xml
+F:\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1311\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1311\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1311\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1311\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1311\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1411\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1411\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1411\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1411\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1411\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1511\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1511\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1511\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1511\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1511\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1711\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1711\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1711\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1711\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1711\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1811\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1811\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1811\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1811\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1811\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\taongay 1911 - Copy - Copy - Copy - Copy - Copy - Copy - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\Bản chỉnh sữa 0912\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 0913\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 1112\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\bin\Rotativa.dll
+F:\debug\Bản chỉnh sữa 1112 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\Rotativa.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\final_debug_14122018\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\final_debug_14122018\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\final_debug_14122018\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\final_debug_14122018\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\final_debug_14122018\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\ShopProject.dll.config
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\ShopProject.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\ShopProject.pdb
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\CKFinder.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\EntityFramework.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\PagedList.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\Rotativa.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Http.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Razor.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\CKFinder.pdb
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\EntityFramework.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\PagedList.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Http.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.Razor.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CoreCompileInputs.cache
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csproj.CopyComplete
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
+F:\debug\final_debug_14122018 - Copy\ShopProject\ShopProject\obj\Debug\ShopProject.csprojAssemblyReference.cache
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\ShopProject.dll.config
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\ShopProject.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\ShopProject.pdb
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\CKFinder.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\EntityFramework.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\EntityFramework.SqlServer.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\Microsoft.Web.Infrastructure.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\Newtonsoft.Json.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\PagedList.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\PagedList.Mvc.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\Rotativa.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Net.Http.Formatting.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Helpers.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Http.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Http.WebHost.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Mvc.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Razor.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.WebPages.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\CKFinder.pdb
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\EntityFramework.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\EntityFramework.SqlServer.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\Newtonsoft.Json.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\PagedList.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\PagedList.Mvc.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Net.Http.Formatting.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Helpers.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Http.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Http.WebHost.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Mvc.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.Razor.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.WebPages.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.WebPages.Deployment.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\bin\System.Web.WebPages.Razor.xml
+E:\DoAnTotNghiep\ShopProject\ShopProject\obj\Debug\ShopProject.csprojResolveAssemblyReference.cache
+E:\DoAnTotNghiep\ShopProject\ShopProject\obj\Debug\ShopProject.dll
+E:\DoAnTotNghiep\ShopProject\ShopProject\obj\Debug\ShopProject.pdb
